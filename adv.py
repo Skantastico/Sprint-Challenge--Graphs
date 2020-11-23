@@ -52,7 +52,7 @@ def traverse(starting_room, visited=set()):
             player.travel(reverse[i])
             path.append(reverse[i])
 
-        return path
+    return path
 
 # begin empty and traverse through using graph
 traversal_path = []
